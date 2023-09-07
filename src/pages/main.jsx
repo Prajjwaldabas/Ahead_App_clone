@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar/Navbar"
 import Hero from '../components/Hero/Hero'
+import Carousel from '../components/Carousel/Carousel'
 import IQ_section from '../components/IQ_section/IQ_section'
 const Main = () => {
 
@@ -8,7 +9,7 @@ const Main = () => {
         <Navbar/>
         <Hero/>
         <IQ_section/>
-       
+       <Carousel/>
         </div>
 
 }

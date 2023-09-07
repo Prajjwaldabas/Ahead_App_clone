@@ -1,0 +1,39 @@
+.Carousel-Container{
+    width: 100%;
+    padding: 0 10%;
+    /* border: 1px solid red; */
+    margin-top: 5rem;
+    /* border: 1px solid red; */
+    height: 400px;
+    overflow: hidden; /* Hide both vertical and horizontal scrollbars */
+    overflow-y: hidden;
+}
+
+.Carousel-heading{
+    font-size: 30px;
+}
+
+.card{
+    height: 250px;
+    width: 300px;
+   
+    flex: 0 0 auto;
+    border-radius: 20px;
+    position: relative;
+    padding: 7%;
+    
+  gap: 15px;
+ 
+    
+}
+.carousel{
+    display: flex; /* Use flex to align cards horizontally */
+    gap: 50px;
+    margin-top: 3rem;
+    /* border: 1px solid red; */
+    width: 100%;
+    
+    overflow: hidden;
+    overflow-x: auto; /* Use 'auto' instead of 'scroll' for better user experience */
+    -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on mobile devices */
+}
