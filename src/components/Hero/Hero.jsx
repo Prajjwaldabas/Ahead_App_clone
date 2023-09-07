@@ -20,7 +20,7 @@ const Hero = () => {
 
 <p>Ahead app</p>
 
-<h1 style={{fontSize:"80px"}}>Master your life <br /> by mastering <br />
+<h1 style={{fontSize:"80px",lineHeight:"90px"}}>Master your life <br /> by mastering <br />
 emotions</h1>
 
 <div className='flex aic'>
