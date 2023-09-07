@@ -1,0 +1,24 @@
+
+
+.IQ-container{
+    /* border: 1px solid blue; */
+    margin-top: 40px;
+    padding: 2%;
+}
+.EQ{
+    width: 30%;
+    /* border: 1px solid red; */
+    
+}
+
+.IQ-text{
+    gap: 40px;
+    color: grey;
+    font-size: 18px;
+    font-weight: 500;
+    /* height: 200px; */
+    line-height: 30px;
+
+    width: 50%;
+/* border:1px solid red; */
+}
