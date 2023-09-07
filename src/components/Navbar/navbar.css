@@ -1,5 +1,10 @@
 .navbar{
     padding: 1% 6%;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    z-index: 9999;
+    
 }
 
 .logo {

@@ -1,0 +1,90 @@
+
+#hero{
+
+background-color: rgb(238,235,254);
+height: 85vh;
+width: 95%;
+border-radius: 25px;
+display: flex;
+padding: 5%;
+align-items: center;
+
+justify-content: space-between;
+margin-top: 100px;
+
+}
+
+#heroLeft{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.appStoreImg{
+ height: 60px;
+width: 200px;
+}
+.star{
+   
+    color: goldenrod;
+}
+
+.outerCircle{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 550px; /* Set the width and height to create a square */
+    height: 550px;
+    border: 6px dashed #ffffff; /* Set the border style (dashed) and color */
+    border-radius: 50%; /* Make it a circle by setting border-radius to 50% of the width/height */
+    box-sizing: border-box;  
+    /* border-image: repeating-linear-gradient(90deg, #007bff, #007bff 50px); */
+}
+
+.aheadIcons{
+    height: 100px;
+    width: 100px;
+    z-index: 2;
+    border-radius: 50%;
+    position: absolute;
+
+}
+#iconBlue{
+    top:30px;
+left:0px;
+}
+#iconYellow{
+    bottom:30px;
+    left:0px;
+}
+#iconPurple{
+    top: 80px;
+    right:0px;
+}
+
+
+
+.innerCircle{
+    position: relative;
+    height: 370px;
+    width: 370px;
+border-radius: 50%;
+
+    background-color: rgb(226,219,253);
+}
+.MobileImg{
+    height: 400px;
+    width: 200px;
+
+}
+.cardMobile{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    
+}
+#card1{
+    left: -14%;
+}
