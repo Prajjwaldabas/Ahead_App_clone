@@ -1,0 +1,119 @@
+.MeetSection{
+    background-color: rgb(254,247,241);
+    height: 600px;
+    margin-top: 50px;
+    border-radius: 20px;
+    width: 90%;
+    
+    position: relative;
+    
+   
+    justify-content: space-around;
+
+}
+
+.Meetleft{
+    gap: 10px;
+position: relative;
+}
+
+.Meetleft p{
+    font-weight: 600;
+}
+.Meetleft h1{
+font-size: 60px;
+
+}
+
+.flower{
+    position: absolute;
+    top: -75px;
+    right: 100px;
+
+}
+
+.Leaves {
+    position: absolute;
+    top: 80px;
+    right: 180px;
+    transform: rotate(-30deg);
+}
+#Leave2{
+    position: absolute;
+    bottom: 80px;
+    right: 160px;
+    transform: rotate(-10deg);
+}
+.greyCircle{
+    position: relative;
+ margin-top: 50px;
+    z-index: 99999;
+    margin-left: 50px;
+    height: 270px;
+    
+    width: 270px;
+    background-color: rgb(246,246,246);
+    border-radius: 50%;
+}
+.whiteCircle{
+    height: 200px;
+    width: 200px;
+
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+
+}
+
+.creamCircle{
+    background-color: rgb(248, 234, 215);
+    position: absolute;
+    top: 180px;
+    height: 300px;
+    width: 150px;
+    border-top-right-radius: 200px; 
+    border-bottom-right-radius: 200px; 
+    
+    
+    left: -60px;
+}
+
+.meetRight{
+    width: 500px;
+    gap: 20px;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 500;
+    word-spacing: 10px;
+    color: rgb(111, 111, 111);
+}
+
+.outerRedCircle{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    border-radius: 50%;
+    bottom: 20px;
+    right: 210px;
+    background-color: #F7D3BD;
+}
+.redCircle{
+    border-radius: 50%;
+    background-color: #EE6A5D;
+    height: 20px;
+    width: 20px;
+}
+
+.pinkCircle{
+    position: absolute;
+    bottom: 150px;
+   right: 160px;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(236, 179, 188);
+    border-radius: 50%;
+
+}
+.flower2{
+    position: absolute;
+    top: -20px;
+}
